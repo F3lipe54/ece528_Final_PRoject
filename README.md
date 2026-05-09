@@ -1,6 +1,6 @@
 # ece528_Final_Project
 
-#Project Overview
+# Project Overview
 
 The objective of this project is to design and implement a remotely controlled (RC) car using
 an ESP32 microcontroller. The system will integrate a wireless control interface and an
@@ -8,7 +8,7 @@ onboard camera to provide real-time video feedback to the user. The final system
 user to remotely drive the vehicle while simultaneously viewing live video from the car’s
 perspective.
 
-#System Architecture
+# System Architecture
 
 The architecture used for this project will consist of making the RC Car around a chassis 
 that will be fully 3d printed, so it will be able to get literally unlimited spare parts for this 
@@ -21,7 +21,7 @@ all the system, a Zee Lypo Battery 2s of 5200Mhamh to give power to the whole sy
 Lastly, an ESP32 CAM is implemented to have a way of seeing what the car is seeing and have the feeling 
 that I would be driving the car in first person.
 
-#Interfaces and Peripherals Used
+# Interfaces and Peripherals Used
 
 For this part, I used the Arduino IDE since it is mostly easier to work in here because of the 
 facility of adding libraries and adding the main files for the ESP32. For the board initializations
@@ -56,13 +56,13 @@ chassis and started moving around. Additionally, since the car was moving correc
 adding the ESP32 CAM on the front and soldering a micro USB cable using the output from the buck converter 
 I was able to power up the ESP32 CAM and see the live video.
 
-#Project Demonstration
+# Project Demonstration
 
 For this part, I made a YouTube video; the link is https://www.youtube.com/watch?v=UeRciERhonk.
 Additionally, there are 2 more videos added to this repository that have some other footage of the car
 running around.
 
-#Conclusion
+# Conclusion
 
 For this part, I was able to achieve the correct working of the RC car by using the ESP32 as a 
 communication device and being able to make it connect to the ESC and servo for drivability.
