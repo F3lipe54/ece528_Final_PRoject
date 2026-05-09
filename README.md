@@ -1,6 +1,7 @@
 # ece528_Final_Project
 
 #Project Overview
+
 The objective of this project is to design and implement a remotely controlled (RC) car using
 an ESP32 microcontroller. The system will integrate a wireless control interface and an
 onboard camera to provide real-time video feedback to the user. The final system will allow a
@@ -8,6 +9,7 @@ user to remotely drive the vehicle while simultaneously viewing live video from 
 perspective.
 
 #System Architecture
+
 The architecture used for this project will consist of making the RC Car around a chassis 
 that will be fully 3d printed, so it will be able to get literally unlimited spare parts for this 
 project. The main brain for this Car will be the ESP32, since this will give many possibilities
@@ -20,6 +22,7 @@ Lastly, an ESP32 CAM is implemented to have a way of seeing what the car is seei
 that I would be driving the car in first person.
 
 #Interfaces and Peripherals Used
+
 For this part, I used the Arduino IDE since it is mostly easier to work in here because of the 
 facility of adding libraries and adding the main files for the ESP32. For the board initializations
 I used the spressfim ESP32 board files that are available on the Arduino IDE. Following by taking 
@@ -39,6 +42,7 @@ computer or other device will connect to it, and then using the ip address given
 we can access it by entering into the ESP32 OV3660 website to see the camera.
 
 # Verification and Testing
+
 In this part, for the verification of the code working, was just first getting everything, the simplest parts
 first, which was the correct read of inputs from the PS5 controller to the ESP32 by getting the mapping of
 values printed whenever we see a change by using the controller. This was tested for the steering and
@@ -53,11 +57,13 @@ adding the ESP32 CAM on the front and soldering a micro USB cable using the outp
 I was able to power up the ESP32 CAM and see the live video.
 
 #Project Demonstration
+
 For this part, I made a YouTube video; the link is https://www.youtube.com/watch?v=UeRciERhonk.
 Additionally, there are 2 more videos added to this repository that have some other footage of the car
 running around.
 
 #Conclusion
+
 For this part, I was able to achieve the correct working of the RC car by using the ESP32 as a 
 communication device and being able to make it connect to the ESC and servo for drivability.
 Additionally, with the camera, I was able to see live footage of the car when it was driving, 
